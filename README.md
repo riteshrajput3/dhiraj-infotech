@@ -1,16 +1,65 @@
-# React + Vite
+# Dhiraj Infotech – Internship Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+built using **React (Vite)** for the frontend and **Supabase** as a cloud backend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Project Overview
 
-## React Compiler
+The application represents a modern business website with a **secure admin panel**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Users can submit contact details via a public form
+- Admin users can securely log in
+- Admin can view and delete contact submissions
+- All data is securely stored in a cloud database
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- **Frontend:** React (Vite)
+- **Styling:** Tailwind CSS
+- **Routing:** React Router
+- **Backend:** Supabase (PostgreSQL + Authentication)
+- **Security:** Row Level Security (RLS)
+- **Version Control:** Git & GitHub
+
+---
+
+## Features
+
+- Responsive and modern UI
+- Contact form with database storage
+- Secure admin authentication
+- Protected admin dashboard
+- Role-based access control
+- Cloud-hosted backend
+- Clean and scalable project structure
+
+---
+
+## Technical 
+
+- No local backend server required
+- Supabase handles authentication and database
+- Row Level Security enforced at database level
+- Environment variables used for sensitive credentials
+- Same backend works across multiple systems
+
+---
+
+## Project Initialization Guide
+
+This guide explains how to run the project on a fresh system.
+
+### Step 1: Install Required Software
+
+#### Install Node.js
+- Download Node.js 18 or 19  from https://nodejs.org
+- Install using default settings
+- Restart the system
+
+Verify installation:
+```bash
+node -v
+npm -v
